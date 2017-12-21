@@ -66,12 +66,8 @@ footer {
   margin: 10px auto 20px; }
 
 @media (min-width: 769px) {
-  .top {
-    background-image: url("../images/top-image.jpg");
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-position: center center; }
+  header .top {
+    height: 500px; }
 
   .container {
     width: 70%;
@@ -81,8 +77,6 @@ footer {
 
   .box {
     margin: 0 10px;
-    width: 30%; }
-    .box p {
-      text-align: left; } }
+    width: 30%; } }
 
 /*# sourceMappingURL=style.css.map */

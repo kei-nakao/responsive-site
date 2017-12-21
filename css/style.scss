@@ -86,16 +86,11 @@ footer{
 
 
 //PC
-@media (min-width: 769px) {
-    .top {
-    background-image: url("../images/top-image.jpg");
+@media (min-width:769px){
+    header .top{
     height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    }
-    
-    
+}
+
     .container {
         width: 70%;
         @include flex-direction(row);
@@ -106,9 +101,6 @@ footer{
         margin:0 10px;
         width: 30%;
         
-        p {
-            text-align: left;
-        }
     }
     
 }
